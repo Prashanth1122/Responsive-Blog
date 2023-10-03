@@ -1,0 +1,35 @@
+function loadHome() {
+  document.getElementById("content").innerHTML = `
+      <div class="blog-card">
+          <img src="blog-image.jpg" alt="Blog Image">
+          <h2>Blog Post Title</h2>
+          <p class="date">Posted on January 1, 2023</p>
+          <p>This is a brief excerpt from the blog post. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <a href="#" onclick="loadPost()">Read More</a>
+      </div>
+      
+      <!-- More blog cards go here -->
+  `;
+}
+
+function loadAbout() {
+  document.getElementById("content").innerHTML = `
+      <h2>About Us</h2>
+      <p>This is the about page content.</p>
+  `;
+}
+
+function loadContact() {
+  document.getElementById("content").innerHTML = `
+      <h2>Contact Us</h2>
+      <p>Contact information goes here.</p>
+  `;
+}
+
+function loadPost() {
+  document.getElementById("content").innerHTML = `
+      <h2>Blog Post Title</h2>
+      <p class="date">Posted on January 1, 2023</p>
+      <p>This is the full content of the blog post.</p>
+  `;
+}
