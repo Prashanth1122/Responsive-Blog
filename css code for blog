@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styles for header and navigation */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Styles for blog cards */
+.blog-card {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.blog-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.blog-card h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.blog-card p.date {
+    color: #888;
+}
+
+.blog-card p {
+    margin-top: 10px;
+}
+
+.blog-card a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+.blog-card a:hover {
+    color: #555;
+}
+
+
