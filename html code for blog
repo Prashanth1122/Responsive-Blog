@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles..CSS">
+    <title>My Travelling Blog</title>
+</head>
+<body style="background-color:rgb(218, 223, 223);">
+    <header>
+        <h1>My Travelling Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" onclick="loadHome()">Home</a></li>
+                <li><a href="about.html" onclick="loadAbout()">About</a></li>
+                <li><a href="contact.html" onclick="loadContact()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="content">
+        <div class="blog-card">
+            <img src="https://t4.ftcdn.net/jpg/01/05/57/13/360_F_105571392_8XeBRcm9d1TFr2AMlW57nu7c8cl0gwSe.jpg" alt="Blog Image">
+            <h2>A Trip To Mathura</h2>
+            <p class="date">Posted on January 1, 2023</p>
+            <p>Discover the hidden mathematical treasures of Mathura, a city steeped in history and spirituality. Explore its rich heritage as the birthplace of Aryabhata, the mathematician who pioneered concepts like zero and the decimal system. Marvel at the intricate geometry woven into the architecture of Mathura's temples and witness how mathematics plays a vital role in the city's religious rituals and festivals. Dive into Mathura's historical significance in the world of mathematics, where scholars from across the globe converged. Moreover, explore the city's modern face as a hub for mathematical education and research. Join us on a journey through Mathura's mathematical legacy and witness the enchanting fusion of mathematics and culture in this timeless destination.</p>
+            <a href="https://www.mathuraonline.in/city-guide/about-mathura" onclick="loadPost()">Read More</a>
+        </div>
+
+        <br>
+        <div class="blog-card">
+            <img src="https://i.pinimg.com/1200x/f3/d1/05/f3d10569f8f17df813b8940f85b0d3aa.jpg" alt="Blog Image">
+            <h2>A Trip To Dwarka</h2>
+            <p class="date">Posted on January 17, 2023</p>
+            <p>Dwarka, often referred to as 'Dwarika' or 'Dvaraka,' is a sacred city located on the western coast of India, in the state of Gujarat. This ancient city holds immense spiritual significance as it is believed to be the legendary kingdom of Lord Krishna, one of the most revered deities in Hinduism. Dwarka is not just a place of religious pilgrimage but also a historical and archaeological marvel.
+
+                Dwarka's charm lies in its sacred temples, with the Dwarkadhish Temple being the most famous. This temple, dedicated to Lord Krishna, stands as a symbol of devotion and architectural splendor. Pilgrims from all over the world visit Dwarka to seek blessings and immerse themselves in the divine aura of this sacred land.
+                
+                Beyond its spiritual allure, Dwarka boasts a rich history, with archaeological excavations revealing submerged structures and artifacts believed to be remnants of the ancient city of Lord Krishna. The city's coastal location adds to its charm, offering breathtaking views of the Arabian Sea and the serene Gomti River.
+                
+                Dwarka invites travelers and seekers alike to explore its spiritual heritage, delve into its historical mysteries, and bask in the tranquility of its coastal beauty. Join us on a journey to Dwarka, where history, spirituality, and natural beauty converge in a mesmerizing blend.</p>
+            <a href="https://www.gujarattourism.com/saurashtra/devbhoomi-dwarka/dwarkadhish-temple.html" onclick="loadPost()">Read More</a>
+        </div>
+
+        <br>
+        <div class="blog-card">
+            <img src="https://i.pinimg.com/736x/38/a0/37/38a037f17003cab3e7d999877d963753.jpg" alt="Blog Image">
+            <h2>A Trip To Vrindhavan</h2>
+            <p class="date">Posted on January 5, 2023</p>
+            <p>As a traveler, stepping into Vrindavan feels like entering a realm where time stands still and spirituality permeates every inch of the town. Located in the heart of Uttar Pradesh, India, Vrindavan is a place that invites you to embark on a unique journey of self-discovery, cultural immersion, and spiritual awakening.
+
+                The moment you arrive, the air becomes thick with the scent of incense and the gentle sound of temple bells. Narrow alleyways lead you through a maze of vibrant shops, bustling markets, and charming eateries, creating an ambiance that's both enchanting and chaotic. Vrindavan isn't just a town; it's a tapestry of devotion, tradition, and legends.
+                
+                The town's numerous temples, ashrams, and sacred groves beckon you to explore its spiritual heritage. The Banke Bihari Temple is a highlight, where you'll find a mesmerizing idol of Lord Krishna bathed in a warm, inviting light. Devotees gather here to sing bhajans (devotional songs) and offer their prayers.<br>
+                
+                Vrindavan's devotion to Lord Krishna is most vividly displayed during festivals like Holi. The streets erupt in a riot of colors as pilgrims and tourists come together to celebrate the eternal love of Radha and Krishna. It's an experience that can only be described as joyful chaos.
+                
+                For moments of tranquility, Vrindavan's ghats along the Yamuna River provide a serene escape. Watching the sunset over the river while absorbing the spiritual energy of the surroundings is a truly soul-nourishing experience.
+                
+                As a traveler in Vrindavan, you'll not only witness the rich tapestry of Hindu mythology but also discover the essence of India's cultural diversity and spiritual depth. Whether you seek introspection, cultural insights, or simply a taste of authentic Indian life, Vrindavan offers it all, wrapped in a timeless charm that leaves an indelible mark on every traveler's heart.</p>
+            <a href="https://www.tourmyindia.com/chardham/badrinath-dham.html" onclick="loadPost()">Read More</a>
+        </div>
+        <br>
+        
+        <!-- More blog cards go here -->
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 My Blog @Prashanth <a href="about.html" onclick="loadAbout()">About</a> </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
